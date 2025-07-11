@@ -4,7 +4,8 @@ metadata:
   name: globomantics
   namespace: globomantics
 spec:
-  replicas: 4444selector:
+  replicas: 4
+  selector:
     matchLabels:
       app: globomantics
   template:
